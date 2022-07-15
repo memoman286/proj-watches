@@ -1,0 +1,290 @@
+html{
+    height: 1500px;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif;
+}
+
+/* ===============
+   1. nav bar
+================ */
+
+
+.fa-magnifying-glass{
+    color: aqua;
+    padding-top: 10px ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background:#000000 ;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    display: inline-block;
+}
+a:hover{
+    background-color: white;
+    color: rgb(240, 30, 240);
+}
+.fa-house-user{
+    color: aqua;
+    font-size: 15px;
+    margin-right: 8px;
+}
+.fa-caret-down{
+    color: aquamarine;
+    margin-left: 5px;
+}
+.logo{
+    background: #009688;
+}
+.parent-link{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(250, 243, 243);
+ 
+    position:absolute;
+    width: 120px;
+    left: 320px;
+    opacity: 0;
+}
+.drop:hover+.parent-link{
+    opacity: 1;
+}
+.qq, .ww, .ee{
+color:black;
+}
+/* ===============
+   1. image
+================ */
+.photo{
+width: 100%;
+height: 500px;
+}
+.hello{
+    color: rgb(206, 75, 211);
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    width:fit-content;
+    opacity: 0.5;
+    letter-spacing: 7px;
+    font-size: 20px;
+    font-family:monospace ;
+    font-weight: 500;
+
+}
+.hello:hover{
+    color:cornflowerblue;
+    transition: 0.8s;
+    letter-spacing: 4px;
+
+}
+
+/* ===============
+   1. our- watches
+================ */
+.our-watches{
+    position:absolute;
+    top:570px;
+    left: 500px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(226, 113, 33);
+    text-transform: uppercase;
+
+}
+.words{
+    position:absolute;
+    left: 290px;
+    top: 620px;
+    color:rgb(204, 35, 69);
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 540;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.memm{
+    width: 260px;
+border-radius: 50%;
+
+}
+.division{
+    position: absolute;
+    top: 730px;
+    left: 60px;
+
+}
+.rol{
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+.pragg{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 40px;
+
+
+}
+
+.division1{
+    position: absolute;
+    top: 730px;
+    left: 450px;
+}
+.qwer{
+    width: 250px;
+    border-radius: 50%;
+}
+.qwer12{
+    margin-left: 80px;
+    width: 20px;
+}
+.qwer123{
+    margin-top: 6px;
+    width: 240px;
+    margin-left:10px;
+}
+
+.division2{
+    position: absolute;
+    top: 730px;
+    left: 850px;
+}
+
+.memo{
+    width: 270px;
+    border-radius: 50%;
+}
+.memo12{
+    margin-left: 90px;
+    margin-top: 8px;
+}
+.memo123{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+
+/* ===============
+   1. Our-work
+================ */
+
+.gray{
+    background:rgb(51, 51, 51);
+    margin-top: 450px;
+    padding-top: 15px;
+    padding-bottom:40px;
+    display: flex;
+    justify-content: space-around;
+}
+.ourwork{
+width: 25%;
+color: white;
+line-height: 30px;
+}
+
+.white{
+background: rgb(241, 236, 236);
+height: 400px;
+line-height: 35px;
+
+}
+.snow{
+    height: 160px;
+    width: 250px;
+}
+.white h2, .white p{
+    padding-left: 12px;
+}
+
+.pricing{
+    margin-top:80px;
+    padding:25px 0;
+    text-align: center;
+}
+.price{
+    padding-bottom: 20px;
+
+}
+.Basic{
+margin-top: 50px;
+padding-top: 20px 0;
+border:1px solid gray;
+width: 20%;
+}
+.bass{
+background:#000000;
+padding-top: 30px;
+padding-bottom: 15px;
+font-size: 20px;
+font-weight: 500;
+color: white;
+}
+.Basic p{
+    border:1px solid gray;
+    padding: 10px 0;
+}
+.sign{
+    background: teal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+.pricing2{
+position: relative;
+left: 290px;
+bottom:424px;
+text-align: center;
+}
+
+.pricing3{
+position: relative;
+left: 580px;
+bottom: 830px;
+text-align: center;
+
+}
+
+.pricing4{
+    position: relative;
+    left: 880px;
+    bottom: 1236px;
+    text-align: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
